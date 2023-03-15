@@ -1,10 +1,11 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
 
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -39,4 +40,42 @@
 
 .read-the-docs {
   color: #888;
+}
+*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 217.26px;
+    height: 73px;
+    padding-right: 2rem;
+}
+
+/*nav {
+    margin-top: 1rem;
+    background-color: rgb(39, 38, 38);
+}*/
+
+nav > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    list-style: none;
+}
+
+
+nav li a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: unset;
+}
+
+nav li a:hover {
+    text-decoration: underline;
 }
